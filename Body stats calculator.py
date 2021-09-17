@@ -4,7 +4,7 @@ from tkinter import ttk
 import tkinter.messagebox as tmsg
 
 
-PAGE_BREAK = "C:\\Users\\Ahmad Shreif\\PycharmProjects\\Health stats tool\\sourceii\\break2.PNG"
+PAGE_BREAK = "C:\\Users\\Ahmad Shreif\\PycharmProjects\\Health-stats-tool\\sourceii\\break2.PNG"
 
 MAIN_FONT = ("Arial",24,"bold")
 MAIN_FONT_COLOR = "#184A80"
@@ -435,7 +435,7 @@ def TDEE_Button():
         p_break_image6 = PhotoImage(file=PAGE_BREAK)
         p_break6 = Label(top_tdee, image=p_break_image6, bg="#A2A5A1").grid(row=6, column=0, columnspan=3, sticky=NSEW)
 
-        p_break_image7 = PhotoImage(file= "C:\\Users\\Ahmad Shreif\\PycharmProjects\\Health stats tool\\sourceii\\break3.PNG")
+        p_break_image7 = PhotoImage(file= "C:\\Users\\Ahmad Shreif\\PycharmProjects\\Health-stats-tool\\sourceii\\break3.PNG")
         p_break7 = Label(top_tdee, image=p_break_image7, bg="white").grid(row=7, column=0, columnspan=3, sticky=NSEW)
 
         def button_BMI_score():
@@ -500,19 +500,19 @@ Frame_buttons = LabelFrame(root, text="Choose the desired option", bg=WHITE, fon
 Frame_buttons.grid(row=8, column=0)
 
 
-login_btn_mac = PhotoImage(file = "C:\\Users\\Ahmad Shreif\\PycharmProjects\\Health stats tool\\sourceii\\macros.PNG")
+login_btn_mac = PhotoImage(file = "C:\\Users\\Ahmad Shreif\\PycharmProjects\\Health-stats-tool\\sourceii\\macros.PNG")
 img_label_mac = Label(image = login_btn_mac)
 Macros_Button = Button(Frame_buttons,image = login_btn_mac, highlightthickness = 0, bd = 0, bg = 'gray38'
                        ,command = macros_button)
 Macros_Button.grid(row =0,column = 0)
 
-login_btn_bmi = PhotoImage(file = "C:\\Users\\Ahmad Shreif\\PycharmProjects\\Health stats tool\\sourceii\\bmi.PNG")
+login_btn_bmi = PhotoImage(file = "C:\\Users\\Ahmad Shreif\\PycharmProjects\\Health-stats-tool\\sourceii\\bmi.PNG")
 img_label_bmi = Label(image = login_btn_bmi)
 BMI_button = Button(Frame_buttons,image = login_btn_bmi, highlightthickness = 0, bd = 0, bg = 'gray38',
                     command = BMI_button)
 BMI_button.grid(row =0,column = 1)
 
-login_btn_tdee = PhotoImage(file = "C:\\Users\\Ahmad Shreif\\PycharmProjects\\Health stats tool\\sourceii\\tdee.PNG")
+login_btn_tdee = PhotoImage(file = "C:\\Users\\Ahmad Shreif\\PycharmProjects\\Health-stats-tool\\sourceii\\tdee.PNG")
 img_label_tdee = Label(image = login_btn_tdee)
 TDEE_button = Button(Frame_buttons,image = login_btn_tdee, highlightthickness = 0, bd = 0, bg = 'gray38',
                      command =TDEE_Button)
